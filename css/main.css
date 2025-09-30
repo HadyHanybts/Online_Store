@@ -1,0 +1,13 @@
+/* ========== MAIN CSS IMPORTS ========== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Utilities */
+@import url("./utils/reset.css");
+@import url("./utils/variables.css");
+
+/* Layout and Components */
+@import url("./layout.css");
+@import url("./components.css");
+
+/* Page Styles (optional imports later) */

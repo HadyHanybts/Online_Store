@@ -1,0 +1,30 @@
+/* ========== GLOBAL VARIABLES ========== */
+:root {
+  /* Colors */
+  --color-primary: #1E88E5;
+  --color-secondary: #F9A825;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F5F6FA;
+  --color-text: #333333;
+  --color-muted: #777777;
+  --color-border: #E0E0E0;
+  --color-success: #43A047;
+  --color-error: #E53935;
+
+  /* Typography */
+  --font-main: "Poppins", sans-serif;
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-large: 20px;
+
+  /* Layout */
+  --max-width: 1200px;
+  --border-radius: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
