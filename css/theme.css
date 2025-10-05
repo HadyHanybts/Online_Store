@@ -1,0 +1,9 @@
+/* Customizable theme variables */
+:root {
+  --primary-color: #f8f8f8;
+  --secondary-color: #333;
+  --text-color: #333;
+  --link-color: #007bff;
+  --footer-text-color: #fff;
+  --font-family: Arial, sans-serif;
+}

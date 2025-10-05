@@ -1,0 +1,18 @@
+/* Page layout */
+header, main, footer {
+    padding: 1rem;
+}
+
+header {
+    background-color: var(--primary-color, #f8f8f8);
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    background-color: var(--secondary-color, #333);
+    color: var(--footer-text-color, #fff);
+    text-align: center;
+}

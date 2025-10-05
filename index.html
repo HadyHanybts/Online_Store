@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store Template</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Store</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/products.html">Products</a></li>
+                <li><a href="html/cart.html">Cart</a></li>
+                <li><a href="html/checkout.html">Checkout</a></li>
+                <li><a href="html/about.html">About</a></li>
+            </ul>
+            <div class="search-cart">
+                <input type="text" placeholder="Search..." class="search-bar">
+                <a href="html/cart.html" class="cart-icon">Cart (0)</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to the Store</h1>
+        <div class="product-grid" id="product-grid">
+            <!-- Product cards will be injected here by JS -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Store Template. All rights reserved.</p>
+    </footer>
+    <script src="js/utils.js" type="module"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
